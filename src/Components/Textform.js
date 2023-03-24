@@ -36,10 +36,10 @@ const handleSpaces=()=>{
               <textarea className="form-control" onChange={handleOnChange} value={text} id="myBox" placeholder='Enter some text here' rows="3"></textarea>
 
           </div>
-          <button className="btn btn-primary mx-2" onClick={handleUpClick}>Convert to Uppercase</button>
-          <button className="btn btn-primary mx-2" onClick={handleLoClick}>Convert to LowerCase</button>
-          <button className="btn btn-primary mx-2" onClick={handleCopy}>Copy</button>
-          <button className="btn btn-primary mx-2" onClick={handleSpaces}>Remove Spaces</button>
+          <button className="btn btn-primary mx-2 my-1" onClick={handleUpClick}>Convert to Uppercase</button>
+          <button className="btn btn-primary mx-2 my-1" onClick={handleLoClick}>Convert to LowerCase</button>
+          <button className="btn btn-primary mx-2 my-1" onClick={handleCopy}>Copy</button>
+          <button className="btn btn-primary mx-2 my-1" onClick={handleSpaces}>Remove Spaces</button>
           </div>
           <div className='Container' style={{color:props.mode==='dark'?'white':'black'}}>
             <h1 >your text summary</h1>
